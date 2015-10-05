@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 operand1.setText("",TextView.BufferType.EDITABLE);
                 operand2.setText("",TextView.BufferType.EDITABLE);
-
+                txtResult.setText("0.0");
             }
         });
 
