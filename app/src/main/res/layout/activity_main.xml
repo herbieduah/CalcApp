@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#020103"
+    android:orientation="vertical"
+    android:weightSum="1">
+<!--the code with the help instructions means android will automatically change the language for you-->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="@string/help_instructions"
+
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textColor="#00ff00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/firstline"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textColor="#00ff00"
+        android:backgroundTint="#ffff00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/secondline"
+        android:textColor="#00ff00"
+        android:paddingTop="5dp"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:backgroundTint="#ffff00" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="280dp"
+        android:layout_height="33dp"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTintMode="src_over"
+        android:backgroundTint="#00ff00">
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="-"
+            android:layout_marginRight="3dp"
+            android:id="@+id/btnSubtraction"
+            style="?android:attr/buttonStyleSmall"
+            android:textSize="15sp"
+            android:typeface="normal"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#00ff00"
+            android:backgroundTintMode="screen" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="+"
+            android:layout_marginRight="3dp"
+            android:id="@+id/btnAddition"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:background="#00ff00" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="/"
+            android:layout_marginRight="3dp"
+            android:id="@+id/btnDivision"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="#00ff00" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="3dp"
+            android:text="x"
+            android:id="@+id/btnMultiplication"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            android:background="#00ff00"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Clear_sign_text"
+            android:id="@+id/clearbutton"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            android:background="#00ff00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/result_description"
+            android:id="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10dp"
+            android:textColor="#00ff00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0.0"
+            android:id="@+id/txtResult"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#00ff00" />
+
+    </LinearLayout>
+
+</LinearLayout>

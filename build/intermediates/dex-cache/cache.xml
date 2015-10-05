@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dherbsta/AndroidStudioProjects/Calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/dherbsta/AndroidStudioProjects/Calculator/app/build/intermediates/pre-dexed/debug/classes-381d893129f2bc0833a23b43288744b29ef36ff8.jar" />
+    </item>
+    <item
+        jar="/Users/dherbsta/AndroidStudioProjects/Calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/dherbsta/AndroidStudioProjects/Calculator/app/build/intermediates/pre-dexed/debug/classes-afbd3c408962174ad29be3c37023b4f4a512ebb1.jar" />
+    </item>
+    <item
+        jar="/Users/dherbsta/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/dherbsta/AndroidStudioProjects/Calculator/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-f123d282b28f3ba10df4799437044ea704535124.jar" />
+    </item>
+    <item
+        jar="/Users/dherbsta/AndroidStudioProjects/Calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/dherbsta/AndroidStudioProjects/Calculator/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-b49dec879bbbb886403fc02e7adb9ad0a1f3ed8f.jar" />
+    </item>
+
+</items>
